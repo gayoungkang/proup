@@ -1,0 +1,66 @@
+.infor-pg {
+    font-size: 1.1rem;
+    color: #414141;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.infor-pg h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+.infor-pg .inner {
+    width: 40%;
+    min-width: 623px;
+}
+.infor-pg ul {
+    margin-bottom: 2%;
+}
+.infor-pg p {
+    margin-bottom: 2%;
+}
+.infor-pg p.title {
+    font-weight: 700;
+    margin-top: 3%;
+}
+.infor-pg p.indent {
+    text-indent: 1em;
+    margin-bottom: 0;
+}
+.infor-pg strong {
+    font-weight: 500;
+}
+.infor-pg table {
+    width: 100%;
+    border: 2px solid #e6e6e6;
+}
+.infor-pg table caption {
+    text-align: left;
+    font-weight: 500;
+}
+.infor-pg table thead {
+    text-align: left;
+}
+.infor-pg table thead tr {
+    background-color: #e6e6e6;
+}
+.infor-pg table thead tr th {
+    text-align: center;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+}
+.infor-pg table td {
+    padding: 2%;
+    border: 2px solid #e6e6e6;
+}
+/* pad device */
+@media only screen and (max-width:810px) {
+}
+/* mobile device */
+@media only screen and (max-width:700px) {
+    .infor-pg {padding-top: 82px;}
+    .infor-pg .inner { width: 80%; min-width: 80%; }
+}
+@media only screen and (max-width:440px) {
+}
